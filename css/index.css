@@ -1313,7 +1313,7 @@ canvas:not(#ribbon-canvas),
   }
 }
 :root {
-  --global-font-size: 15px;
+  --global-font-size: 16px;
   --global-bg: #fff;
   --font-color: #4c4948;
   --hr-border: #d2ebfd;
@@ -1360,7 +1360,7 @@ body {
   background: var(--global-bg);
   color: var(--font-color);
   font-size: var(--global-font-size);
-  font-family: YSHST, -apple-system, 'Quicksand', 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;;
+  font-family: LXGW WenKai Screen, -apple-system, 'Quicksand', 'Nimbus Roman No9 L', 'PingFang SC', 'Hiragino Sans GB', 'Noto Serif SC', 'Microsoft Yahei', 'WenQuanYi Micro Hei', 'ST Heiti', sans-serif;;
   line-height: 2;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   scroll-behavior: smooth;
@@ -1489,7 +1489,7 @@ a:hover {
 .site-name,
 #aside-content .author-info-name,
 #aside-content .author-info-description {
-  font-family: YSHST, -apple-system, BlinkMacSystemFont, "Segoe UI" , "Helvetica Neue" , Lato, Roboto, "PingFang SC" , "Microsoft JhengHei" , "Microsoft YaHei" , sans-serif;
+  font-family: LXGW WenKai Screen, -apple-system, BlinkMacSystemFont, "Segoe UI" , "Helvetica Neue" , Lato, Roboto, "PingFang SC" , "Microsoft JhengHei" , "Microsoft YaHei" , sans-serif;
 }
 .text-center {
   text-align: center;
@@ -1659,7 +1659,7 @@ figure.highlight pre .javascript .function {
 .container pre,
 .container code {
   font-size: 14px;
-  font-family: consolas, Menlo, monospace, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+  font-family: Consolas, YSHST, "Microsoft YaHei", Menlo, "PingFang SC", "Microsoft JhengHei", sans-serif !important;
   border-radius: 6px;
 }
 .container code {
@@ -1866,7 +1866,7 @@ figure.highlight pre .javascript .function {
   height: 100%;
   vertical-align: top;
   text-align: center;
-  font-family: YSHST, -apple-system, BlinkMacSystemFont, "Segoe UI" , "Helvetica Neue" , Lato, Roboto, "PingFang SC" , "Microsoft JhengHei" , "Microsoft YaHei" , sans-serif;
+  font-family: LXGW WenKai Screen, -apple-system, BlinkMacSystemFont, "Segoe UI" , "Helvetica Neue" , Lato, Roboto, "PingFang SC" , "Microsoft JhengHei" , "Microsoft YaHei" , sans-serif;
 }
 @media screen and (max-width: 768px) {
   .type-404 .error-content .error-info {
