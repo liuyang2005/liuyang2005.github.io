@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>CS188 Notes I</title>
+      <link href="/2025/03/22/cs188note1/"/>
+      <url>/2025/03/22/cs188note1/</url>
+      
+        <content type="html"><![CDATA[<h1>intro</h1><p>CS188作为Berkeley的人工智能基础课，你交将其精简移植后变成AU3323，课程内容大打折扣但课时并未减少分毫。相比于原课程，缺失的内容——RL, Bayes’Nets, Decision Networks的课程笔记将在这里记录。</p><blockquote><p>课程link：<a href="https://inst.eecs.berkeley.edu/~cs188/sp25/">CS188</a></p></blockquote><h1>RL</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> AI </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>AI基础 笔记</title>
       <link href="/2025/02/24/AI%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/"/>
       <url>/2025/02/24/AI%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0/</url>
