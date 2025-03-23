@@ -363,7 +363,7 @@ D-separation 是一种仅通过研究图来回答条件独立查询的条件/算
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return
     twikoo.getCommentsCount({
-      envId: 'https://leserein-leserein.hf.space',
+      envId: 'https://leserein.netlify.app/.netlify/functions/twikoo',
       region: '',
       urls: [window.location.pathname],
       includeReply: false
@@ -377,7 +377,7 @@ D-separation 是一种仅通过研究图来回答条件独立查询的条件/算
   const init = (el = document, path = location.pathname) => {
     twikoo.init({
       el: el.querySelector('#twikoo-wrap'),
-      envId: 'https://leserein-leserein.hf.space',
+      envId: 'https://leserein.netlify.app/.netlify/functions/twikoo',
       region: '',
       onCommentLoaded: () => {
         btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
