@@ -188,7 +188,7 @@ btf.addGlobalFn('pjaxComplete', () => {
   isHighlightShrink: false,
   isToc: true,
   pageType: 'post'
-}</script><link rel="stylesheet" href="/css/universe.css"><link rel="stylesheet" href="/css/custom.css"><link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/style.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/css/progress_bar.css" media="defer" onload="this.media='all'"><script>window.qweather_api_host = "kr759ekfp8.re.qweatherapi.com";</script><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.css" /><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
+}</script><link rel="stylesheet" href="/css/universe.css"><link rel="stylesheet" href="/css/custom.css"><link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.7.0/style.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="/css/progress_bar.css" media="defer" onload="this.media='all'"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-clock-veeink@1.0.0/lib/clock-min.css" /><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
   const $loadingBox = document.getElementById('loading-box')
   const $body = document.body
   const preloader = {
@@ -328,34 +328,56 @@ document.body.addEventListener('input', POWERMODE);
     parent.insertAdjacentHTML("afterbegin",child)}
      </script><style>#catalog_magnet{flex-wrap: wrap;display: flex;width:100%;justify-content:space-between;padding: 10px 10px 0 10px;align-content: flex-start;}.magnet_item{flex-basis: calc(50% - 5px);background: #f2f2f2;margin-bottom: 10px;border-radius: 8px;transition: all 0.2s ease-in-out;}.magnet_item:hover{background: #b2d4ed}.magnet_link_more{color:#555}.magnet_link{color:black}.magnet_link:hover{color:white}@media screen and (max-width: 600px) {.magnet_item {flex-basis: 100%;}}.magnet_link_context{display:flex;padding: 10px;font-size:16px;transition: all 0.2s ease-in-out;}.magnet_link_context:hover{padding: 10px 20px;}</style>
     <style></style><script data-pjax>
-  function butterfly_clock_anzhiyu_injector_config(){
-    var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
-    var item_html = '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img class="entered loading" id="card-clock-loading" src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading"/></div></div></div></div></div>';
-    console.log('已挂载butterfly_clock_anzhiyu')
-    if(parent_div_git) {
-      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
-    }
-  }
-  var elist = 'null'.split(',');
-  var cpage = location.pathname;
-  var epage = '/';
-  var qweather_key = '4b1a5101640146d9a72cf65d5e1821ff';
-  var gaud_map_key = 'ae1e57f70c1f0b83ff6008b972383dac';
-  var baidu_ak_key = 'undefined';
-  var flag = 0;
-  var clock_rectangle = '113.34532,23.15624';
-  var clock_default_rectangle_enable = 'false';
+function hexo_butterfly_clock_remake_injector_config(){
+  var parent_div_git;
+  var item_html = `<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img class="entered loading" id="card-clock-loading" src="https://cdn.cbd.int/hexo-butterfly-clock-veeink@1.0.0/lib/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading"/></div></div></div></div></div>`;
 
-  for (var i=0;i<elist.length;i++){
-    if (cpage.includes(elist[i])){
-      flag++;
-    }
+  // 按类型获取容器
+  if ('class' === 'class') {
+    parent_div_git = document.getElementsByClassName('aside-content')[0];
+  } else if ('class' === 'id') {
+    parent_div_git = document.getElementById('aside-content');
+  } else {
+    parent_div_git = document.getElementById('aside-content');
   }
 
-  if ((epage ==='all')&&(flag == 0)){
-    butterfly_clock_anzhiyu_injector_config();
+  if(parent_div_git){
+    var reference_el_before = null;
+    var reference_el_after = parent_div_git.querySelector('.card-announcement');
+
+    if(reference_el_before){
+      parent_div_git.insertBefore(
+        (function(){var temp = document.createElement('div'); temp.innerHTML = item_html; return temp;}()),
+        reference_el_before
+      );
+    } else if(reference_el_after){
+      reference_el_after.insertAdjacentHTML('afterend', item_html);
+    } else {
+      parent_div_git.insertAdjacentHTML('afterbegin', item_html);
+    }
   }
-  else if (epage === cpage){
-    butterfly_clock_anzhiyu_injector_config();
-  }
-  </script><script src="https://whois.pconline.com.cn/ipJson.jsp"></script><script data-pjax src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu/lib/clock.min.js"></script><!-- hexo injector body_end end --></body></html>
+}
+
+console.log('已挂载 butterfly_clock_anzhiyu-yang 修复版');
+
+// ---------- 全局变量声明 ----------
+var cpage = location.pathname;
+var epage = 'all';
+var qweather_key = '4b1a5101640146d9a72cf65d5e1821ff';
+var qweather_api_host = 'https://kr759ekfp8.re.qweatherapi.com';
+var default_city = '上海';
+var gaud_map_key = 'ae1e57f70c1f0b83ff6008b972383dac';
+
+// ---------- 页面过滤 ----------
+var elist = '/posts/,/about/'.split(',');
+var flag = 0;
+for(var i=0;i<elist.length;i++){
+  if(cpage.includes(elist[i])) flag++;
+}
+
+if((epage === 'all') && (flag == 0)){
+  hexo_butterfly_clock_remake_injector_config();
+} else if(epage === cpage){
+  hexo_butterfly_clock_remake_injector_config();
+}
+</script><script data-pjax src="https://cdn.cbd.int/hexo-butterfly-clock-veeink@1.0.0/lib/clock-min.js"></script><!-- hexo injector body_end end --></body></html>
