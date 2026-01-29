@@ -158,14 +158,7 @@
   </url>
   
   <url>
-    <loc>http://liuyang2005.github.io/tags/python/</loc>
-    <lastmod>2026-01-29</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://liuyang2005.github.io/tags/pytorch/</loc>
+    <loc>http://liuyang2005.github.io/tags/dl/</loc>
     <lastmod>2026-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -179,7 +172,14 @@
   </url>
   
   <url>
-    <loc>http://liuyang2005.github.io/tags/dl/</loc>
+    <loc>http://liuyang2005.github.io/tags/python/</loc>
+    <lastmod>2026-01-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://liuyang2005.github.io/tags/pytorch/</loc>
     <lastmod>2026-01-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
