@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://liuyang2005.github.io/2025/03/22/cs188note1/</loc>
+    
+    <lastmod>2026-03-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://liuyang2005.github.io/movies/index.html</loc>
     
     <lastmod>2025-11-04</lastmod>
@@ -65,15 +74,6 @@
   </url>
   
   <url>
-    <loc>http://liuyang2005.github.io/2025/03/22/cs188note1/</loc>
-    
-    <lastmod>2025-03-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://liuyang2005.github.io/2025/03/23/cs188note2/</loc>
     
     <lastmod>2025-03-23</lastmod>
@@ -130,7 +130,7 @@
 
   <url>
     <loc>http://liuyang2005.github.io/</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -138,49 +138,49 @@
   
   <url>
     <loc>http://liuyang2005.github.io/tags/%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://liuyang2005.github.io/tags/AI/</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://liuyang2005.github.io/tags/ml/</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://liuyang2005.github.io/tags/python/</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://liuyang2005.github.io/tags/pytorch/</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://liuyang2005.github.io/tags/dl/</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://liuyang2005.github.io/tags/%E6%95%B0%E5%AD%A6/</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -189,14 +189,14 @@
   
   <url>
     <loc>http://liuyang2005.github.io/categories/%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://liuyang2005.github.io/categories/code/</loc>
-    <lastmod>2026-03-10</lastmod>
+    <lastmod>2026-03-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
