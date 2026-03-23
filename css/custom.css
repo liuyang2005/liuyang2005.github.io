@@ -341,3 +341,20 @@ h6::before {
   animation: ccc 6s linear infinite;
 }
 
+.fontawesomeIcon,
+.container h1:before,
+.container h2:before,
+.container h3:before,
+.container h4:before,
+.container h5:before,
+.container h6:before,
+#post .post-copyright:before,
+#post #post-outdate-notice:before,
+.toggle > .toggle-button::before,
+.note:not(.no-icon)::before {
+  display: inline-block;
+  font-weight: 600;
+  font-family: 'Font Awesome 7 Free', 'Font Awesome 6 Free';
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+}
